@@ -1,0 +1,21 @@
+<!Doctype html>
+<html>
+<title> Test Website </title>
+    <body>
+<p id="demo"></p>
+        <script>
+
+const person = {
+    firstName:"John",
+    lastName:"Doe",
+    age:50,
+    eyeColour:"blue"
+
+};
+
+document.getElementById("demo").innerHTML = person.firstName + " is " + person.age +" years old with " + person.eyeColour +" eyes"; 
+//document.getElementById("demo").innerHTML = person["firstName"] + " is " +person["age"] + person["eyeColour"];
+
+        </script>
+    </body>   
+</html>
